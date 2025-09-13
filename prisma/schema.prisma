@@ -8,7 +8,7 @@ datasource db {
   url      = env("DATABASE_URL2")
 }
 
-model Survey {
+model formresult {
   id        Int      @id @default(autoincrement())
   firstName String
   lastName  String
